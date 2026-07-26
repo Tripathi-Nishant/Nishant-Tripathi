@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useState } from "react"
 
 type FormState = "idle" | "loading" | "success" | "error"
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -10,11 +10,6 @@ export function ContactForm() {
   const [message, setMessage] = useState<string | null>(null)
   const [email, setEmail] = useState("")
   const [body, setBody] = useState("")
-
-  const canSubmit = useMemo(
-    () => EMAIL_RE.test(email.trim()) && body.trim().length >= 10,
-    [email, body]
-  )
 
   const onSubmit = async () => {
     if (state === "loading") return
@@ -91,7 +86,7 @@ export function ContactForm() {
       <button
         type="button"
         onClick={onSubmit}
-        disabled={state === "loading" || !canSubmit}
+        disabled={state === "loading"}
         className="h-9 sm:h-10 md:h-11 w-full rounded-md border border-neutral-200 bg-white text-xs sm:text-sm font-medium text-neutral-900 transition hover:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-70 dark:border-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
       >
         {state === "loading" ? "Sending..." : "Send message"}
