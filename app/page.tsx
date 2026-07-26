@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter, Mail, Calendar, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, Calendar, Code2 } from "lucide-react";
 import { TextShimmer } from "@/components/ui/text-shimmer";
 import { Typewriter } from "@/components/ui/typewriter";
 import { TimeCounter } from "@/components/time-counter";
@@ -18,21 +18,6 @@ import {
 } from "@/components/scroll-animation";
 
 export default function Page() {
-  const experienceItems = [
-    {
-      icon: "building",
-      company: "Click2Biz",
-      role: "Co-Founder & Marketing Lead",
-      period: "July 2025 - Present",
-      bullets: [
-        "Gathered client requirements, defined product features, and coordinated with the development team to deliver tailored digital solutions for small businesses.",
-        "Managed client communication, requirement documentation, and the product roadmap; worked directly with early customers to iterate on features and improve product-market fit.",
-      ],
-      logoUrl: "/click2biz-logo.png",
-      companyUrl: "",
-    },
-  ]
-
   return (
     <main className="min-h-dvh bg-grid pb-20 sm:pb-24 md:pb-32 pt-4 sm:pt-5 md:pt-6 dark:bg-neutral-950">
       <FadeInText>
@@ -41,17 +26,11 @@ export default function Page() {
             href="#"
             className="font-semibold text-neutral-900 dark:text-neutral-50 text-sm sm:text-base"
           >
-            Nishant.
+            Ojasvi.
           </Link>
 
 
           <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
-            <a
-              href="#experience"
-              className="hover:text-neutral-900 dark:hover:text-neutral-50 text-xs sm:text-xs"
-            >
-              experience
-            </a>
             <a
               href="#projects"
               className="hover:text-neutral-900 dark:hover:text-neutral-50 text-xs sm:text-xs"
@@ -96,15 +75,15 @@ export default function Page() {
                   <div className="flex items-center gap-3">
                     <div className="h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 ring-2 ring-neutral-200 dark:ring-neutral-900 rounded-full overflow-hidden flex-shrink-0">
                       <img
-                        src="/facedemo.jpeg"
-                        alt="Nishant Tripathi"
+                        src="/ojasvi-profile.png"
+                        alt="Ojasvi Marwari"
                         className="h-full w-full object-cover scale-115 -translate-x-0.5"
                       />
                     </div>
                     <h1 className="text-lg sm:text-2xl md:text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-50">
-                      Nishant Tripathi
+                      Ojasvi Marwari
                       <br />
-                     <p className="flex flex-wrap items-center mt-1 gap-2 sm:gap-5 md:gap-5 text-xs text-neutral-600 dark:text-neutral-400">aka elonmosquito</p>
+                     <p className="flex flex-wrap items-center mt-1 gap-2 sm:gap-5 md:gap-5 text-xs text-neutral-600 dark:text-neutral-400">aka Rashi</p>
                     </h1>
                    
                   </div>
@@ -112,7 +91,7 @@ export default function Page() {
                 </SlideInLeft>
                 <FadeInText delay={0.3}>
                   <div className="flex flex-wrap items-center mt-3 gap-2 sm:gap-4 text-xs text-neutral-600 dark:text-neutral-300">
-                    <span>21, he/him </span>
+                    <span>20, his/her </span>
                     <span className="hidden sm:inline">{"|"}</span>
                     <span className="max-w-[38ch]">
                       <Typewriter
@@ -146,7 +125,7 @@ export default function Page() {
                       Resume
                     </a>
                     <a
-                      href="mailto:tripathinishant498@gmail.com"
+                      href="mailto:ojasvi.0108@gmail.com"
                       aria-label="Send email"
                       className="inline-flex items-center gap-1.5 rounded-full border border-neutral-200 px-3 sm:px-4 py-1 sm:py-1.5 text-xs sm:text-sm text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900 whitespace-nowrap"
                     >
@@ -154,17 +133,17 @@ export default function Page() {
                       
                     </a>
                     <a
-                      href="https://x.com/monk_isolated"
+                      href="https://leetcode.com/u/Ojasvi_M/"
                       target="_blank"
                       rel="noreferrer"
-                      aria-label="Open Twitter"
+                      aria-label="Open LeetCode"
                       className="inline-flex items-center gap-1.5 rounded-full border border-neutral-200 px-3 sm:px-4 py-1 sm:py-1.5 text-xs sm:text-sm text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900 whitespace-nowrap"
                     >
-                      <Twitter className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                      <Code2 className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
                       
                     </a>
                     <a
-                      href="https://github.com/Tripathi-Nishant"
+                      href="https://github.com/Ojasvi2006"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Open GitHub"
@@ -174,7 +153,7 @@ export default function Page() {
                       
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/nishant-tripathi-206560250/"
+                      href="https://www.linkedin.com/in/ojasvi-marwari-110392328/"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Open LinkedIn"
@@ -195,126 +174,68 @@ export default function Page() {
             <FadeInText delay={0.7}>
               <section className="mt-3 sm:mt-4 mx-1 sm:mx-2 md:m-2 justify-center items-center text-xs sm:text-sm leading-6 text-neutral-600 dark:text-neutral-300">
                 <p>
-                  TL;DR: i break things, learn fast, and make shit happen. limits exist to be tested; polymath thinking and psychology books shaped me. <br />Mastery is non-negotiable.{" "}
+              TL;DR: I overthink because details matter. I learn fast, ask too many questions, and love understanding people as much as problems. Psychology and curiosity are my favorite rabbit holes. Mastery is non-negotiable.{" "}
                   
                 </p>
               </section>
             </FadeInText>
-
-                                    {/* Work Experience */}
-            <SlideUp delay={0.1}>
-              <section id="experience" className="mt-3 sm:mt-4 px-1.5 sm:px-2 md:px-4 py-3 sm:py-4 md:py-5 section-divider">
-                <FadeInText delay={0.1}>
-                  <h3 className="font-bricolage text-xs sm:text-sm md:text-base font-bold tracking-tight text-neutral-900 dark:text-neutral-50">
-                    Experience
-                  </h3>
-                </FadeInText>
-
-                <div className="experience-list mt-3 sm:mt-4 space-y-2 sm:space-y-3">
-                  {experienceItems.map(item => (
-                    <div key={item.company} className="experience-item">
-                      <div className="experience-row">
-                        <div className="experience-left">
-                          <div className="experience-logo">
-                            <img
-                              src={item.logoUrl}
-                              alt={`${item.company} logo`}
-                              className="h-full w-full object-cover"
-                            />
-                          </div>
-                          <div className="experience-text">
-                            <p className="experience-company">
-                              {item.companyUrl ? (
-                                <a
-                                  href={item.companyUrl}
-                                  target="_blank"
-                                  rel="noreferrer"
-                                  className="hover:underline"
-                                >
-                                  {item.company}
-                                </a>
-                              ) : (
-                                item.company
-                              )}
-                            </p>
-                            <p className="experience-role">{item.role}</p>
-                          </div>
-                        </div>
-                        <div className="experience-right">
-                          <span className="experience-period">{item.period}</span>
-                          <span className="exp-chevron-wrap" aria-hidden="true">
-                            <ChevronDown className="exp-chevron" />
-                          </span>
-                        </div>
-                      </div>
-
-                      <div className="experience-details">
-                        <ul className="experience-bullets">
-                          {item.bullets.map((bullet, index) => (
-                            <li key={`${item.company}-${index}`}>{bullet}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            </SlideUp>
 
             {/* Projects */}
             <SlideUp delay={0.2}>
               <section id="projects" className="mt-3 sm:mt-4 p-2 sm:p-3 md:p-4 section-divider pt-4 sm:pt-5">
                 <FadeInText delay={0.1}>
                   <h3 className="font-bricolage text-xs sm:text-sm md:text-base font-semibold tracking-[0.05em] text-neutral-900 dark:text-neutral-50 mb-2 sm:mb-3 ml-0.5 sm:ml-1">
-                    Proof of Work
+                    Projects
                   </h3>
                 </FadeInText>
                 <div className="space-y-1.5 sm:space-y-2 md:space-y-2">
                   <SlideInLeft delay={0.1}>
                     <ProjectListItem
-                      title="DriftWatch"
-                      image="driftwatch-architecture.png"
+                      title="Road Damage Detection System | Dec’25–Jan’26"
+                      image="road-damage-detection.png"
                       links={[
                         {
-                          label: "live preview ↗",
-                          href: "https://github.com/Tripathi-Nishant/CloudWatch",
+                          label: "live preview",
+                          href: "https://github.com/Ojasvi2006/Road-Damage-Detection",
                         },
                         {
-                          label: "github ↗",
-                          href: "https://github.com/Tripathi-Nishant/CloudWatch",
+                          label: "github",
+                          href: "https://github.com/Ojasvi2006/Road-Damage-Detection",
                         },
                       ]}
                       bullets={[
-                        "Built a real-time training/serving skew detector for ML pipelines using PSI, KL Divergence, Jensen-Shannon Distance, and KS Test, achieving sub-second drift detection across numerical and categorical features.",
-                        "Engineered an LLM-powered explanation layer using the Claude Haiku API to generate plain-English diagnosis, impact, and action reports.",
+                        "Developed an end-to-end computer vision pipeline using YOLOv8m and Python for automated road damage detection on 70k+ road images.",
+                        "Built a production-ready inference pipeline processing 2.3k+ images with structured outputs for GIS/analytics integration, achieving mAP@0.5 of 0.57.",
+                        "Published the project on GitHub with deployment-ready implementation.",
                        
                       ]}
-                      tags={["Python", "FastAPI", "React.js", "Docker"]}
+                      tags={["YOLOv8", "Python", "Computer Vision"]}
                     />
                   </SlideInLeft>
                   
                   <SlideInLeft delay={0.1}>
                     <ProjectListItem
-                      title="Nyaya-Voice"
-                      image="nyaya-voice-dashboard.png"
+                      title="S.A.F.E. | Nov’25–Nov’25"
+                      image="safe-dashboard.png"
                       
                       links={[
                         {
-                          label: "live preview ↗",
-                          href: "https://nyaay-voice.onrender.com/",
+                          label: "live demo",
+                          href: "https://safedataverse.streamlit.app/",
                           
                         },
                         {
-                          label: "github ↗",
-                          href: "https://github.com/Tripathi-Nishant/Nyaay-voice",
+                          label: "github",
+                          href: "https://github.com/Ojasvi2006/S.A.F.E",
                         },
                       ]}
                       bullets={[
-                        "Built a bilingual AI-powered legal assistant for rural accessibility with a 10-step deterministic pipeline simulating Sarvam AI speech-to-text, Gemini, and RAG retrieval for Hindi and English voice queries.",
-                        "Engineered a legal verification layer that cross-references AI-generated responses with a verified internal rule book, assigns confidence scores, and triggers source-language clarification for low-confidence or ambiguous queries.",
+                        "Developed an AI-based crime prediction system using Python and XGBoost, achieving 90%+ accuracy in forecasting high-risk urban zones.",
+                        "Integrated the OSRM routing engine to calculate optimal safe routes by analyzing real-time danger probability across city zones.",
+                        "Live Demo: safedataverse.streamlit.app",
                       
                       ]}
-                      tags={["Node.js", "Express.js", "HTML5", "CSS", "JavaScript"]}
+                      tags={["Python", "XGBoost", "Streamlit", "Folium", "OSRM"]}
                     />
                   </SlideInLeft>
                   
@@ -322,7 +243,7 @@ export default function Page() {
                 <FadeInText delay={0.2}>
                   <div className="mt-2 sm:mt-3 flex justify-center">
                     <a
-                      href="https://github.com/Tripathi-Nishant?tab=repositories" target="_blank"
+                      href="https://github.com/Ojasvi2006?tab=repositories" target="_blank"
                       className="inline-flex items-center gap-1 rounded-sm border border-neutral-200 px-2.5 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900"
                     >
                       View all projects →
@@ -382,6 +303,7 @@ export default function Page() {
                 <GitHubContributions />
               </section>
             </SlideUp> */}
+            {/* Blog section removed
             <SlideUp delay={0.2}>
               <section id="projects" className="mt-3 sm:mt-4 p-2 sm:p-3 md:p-3 section-divider pt-4 sm:pt-5">
                 <FadeInText delay={0.1}>
@@ -432,6 +354,8 @@ export default function Page() {
               </section>
             </SlideUp>
 
+            </SlideUp> */}
+
             {/* Education */}
             <SlideUp delay={0.3}>
               <section className="mt-3 sm:mt-4 p-2 sm:p-3 md:p-3 section-divider pt-4 sm:pt-5">
@@ -446,7 +370,7 @@ export default function Page() {
                       <AchievementItem
                         title="KIET Group of Institutions"
                         date="2024 – 2028"
-                        description="B.Tech in Computer Science and Engineering — CGPA: 9.1/10"
+                        description="B.Tech in Computer Science and Engineering — CGPA: 9.59/10"
                       />
                     </li>
                   </SlideInLeft>
@@ -483,13 +407,13 @@ export default function Page() {
                     book a meet
                   </a>
                   <a
-                    href="https://x.com/monk_isolated"
+                    href="https://www.linkedin.com/in/ojasvi-marwari-110392328/"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center justify-center gap-2 rounded-md bg-sky-500 px-4 py-2 text-sm font-medium text-white hover:bg-sky-400"
-                    aria-label="DM on X"
+                    aria-label="Open LinkedIn"
                   >
-                    dm on x
+                    linkedin
                   </a>
                 </div>
 
@@ -500,7 +424,7 @@ export default function Page() {
                   <ContactForm />
                   <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-400">
                     Messages are directed to{" "}
-                    <span className="font-medium">tripathinishant498@gmail.com</span>.
+                    <span className="font-medium">ojasvi.0108@gmail.com</span>.
                   </p>
                 </div>
               </section>
@@ -514,7 +438,7 @@ export default function Page() {
         </div>{" "}
         <div className="mt-2 sm:mt-3 md:mt-4 flex justify-center text-xs text-neutral-500 dark:text-neutral-400 px-2">
            
-      designed and developed by&nbsp;<a href="https://x.com/monk_isolated" className="text-blue-400 hover:text-blue-500"> ~Nishant</a>
+      designed and developed by&nbsp;<a href="https://leetcode.com/u/Ojasvi_M/" className="text-blue-400 hover:text-blue-500"> ~Ojasvi</a>
       </div>
         
       </div>

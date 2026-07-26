@@ -4,7 +4,6 @@ import {
   Github,
   Mail,
   Linkedin,
-  Twitter,
   Code2,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -21,10 +20,10 @@ export function Dock() {
   const items = [
     { type: "image", label: "Home", href: "#" },
     { icon: Code2, label: "Projects", href: "#projects" },
-    { icon: Github, label: "GitHub", href: "https://github.com/Tripathi-Nishant" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/nishant-tripathi-206560250/" },
-    { icon: Twitter, label: "Twitter", href: "https://x.com/monk_isolated" },
-    { icon: Mail, label: "Email", href: "mailto:tripathinishant498@gmail.com" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Ojasvi2006" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/ojasvi-marwari-110392328/" },
+    { icon: Code2, label: "LeetCode", href: "https://leetcode.com/u/Ojasvi_M/" },
+    { icon: Mail, label: "Email", href: "mailto:ojasvi.0108@gmail.com" },
   ];
   
   return (
@@ -48,7 +47,7 @@ export function Dock() {
                 }
               >
                 <img
-                  src="/facedemo.jpeg"
+                  src="/ojasvi-profile.png"
                   alt={item.label}
                   className="h-6 w-6 sm:h-7 sm:w-7 rounded-full object-cover"
                 />
