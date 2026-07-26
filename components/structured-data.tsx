@@ -7,11 +7,11 @@ export default function StructuredData() {
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Ojasvi Marwari",
+      name: "Nishant Tripathi",
       jobTitle: "Full Stack Developer",
       description:
         "TL;DR: Full-Stack Software Engineer building scalable, production-grade systems at early-stage startups. Experienced in end-to-end ownership, system design, backend services, frontend applications, and taking products from architecture to production.",
-      email: "ojasvi.0108@gmail.com",
+      email: "tripathinishant498@gmail.com",
       nationality: "Indian",
       birthDate: "2005",
       gender: "Male",
@@ -22,9 +22,9 @@ export default function StructuredData() {
         addressLocality: "Ghaziabad",
       },
       sameAs: [
-        "https://www.linkedin.com/in/ojasvi-marwari-110392328/",
-        "https://github.com/Ojasvi2006",
-        "https://leetcode.com/u/Ojasvi_M/",
+        "https://www.linkedin.com/in/nishant-tripathi-206560250/",
+        "https://github.com/Tripathi-Nishant",
+        "https://x.com/monk_isolated",
       ],
       knowsAbout: [
         "Full Stack Development",

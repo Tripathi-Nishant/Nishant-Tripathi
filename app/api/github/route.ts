@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 
 const GITHUB_API = "https://api.github.com/graphql"
-const DEFAULT_USER = "Ojasvi2006"
+const DEFAULT_USER = "Tripathi-Nishant"
 
 export async function GET() {
   const token =
