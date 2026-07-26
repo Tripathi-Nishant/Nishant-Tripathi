@@ -36,7 +36,8 @@ export async function POST(request: Request) {
   const host = process.env.SMTP_HOST
   const port = Number(process.env.SMTP_PORT || 0)
   const user = process.env.SMTP_USER
-  const pass = process.env.SMTP_PASS
+  // Google displays App Passwords in groups; whitespace is not part of the password.
+  const pass = process.env.SMTP_PASS?.replace(/\s+/g, "")
   const rawFrom = process.env.SMTP_FROM || user
   const to = process.env.CONTACT_TO || "tripathinishant498@gmail.com"
   const isDev = process.env.NODE_ENV !== "production"
