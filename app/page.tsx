@@ -10,6 +10,7 @@ import { Dock } from "@/components/dock";
 import { SkillsDraggable } from "@/components/skills-draggable";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { ContactForm } from "@/components/contact-form";
+import { VisitorCounter } from "@/components/visitor-counter";
 import {
   FadeInText,
   SlideUp,
@@ -516,6 +517,7 @@ export default function Page() {
            
       designed and developed by&nbsp;<a href="https://x.com/monk_isolated" className="text-blue-400 hover:text-blue-500"> ~Nishant</a>
       </div>
+      <VisitorCounter />
         
       </div>
 
