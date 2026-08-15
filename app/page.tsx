@@ -456,6 +456,40 @@ export default function Page() {
                 </ul>
               </section>
             </SlideUp>
+               {/* Certifications */}
+            <SlideUp delay={0.3}>
+              <section id="certifications" className="mt-3 sm:mt-4 p-2 sm:p-3 md:p-3 section-divider pt-4 sm:pt-5">
+                <FadeInText delay={0.1}>
+                  <h3 className="font-bricolage text-xs sm:text-sm md:text-base font-semibold tracking-[0.05em] text-neutral-900 dark:text-neutral-50 mb-2 sm:mb-3">
+                    Certifications
+                  </h3>
+                </FadeInText>
+                <ul className="space-y-1.5 sm:space-y-2 md:space-y-2">
+                  <SlideInLeft delay={0.1}>
+                    <li>
+                      <AchievementItem
+                        title="AWS Certified Cloud Practitioner"
+                        date="AWS"
+                        description="Foundational AWS certification covering cloud concepts, core services, security, pricing, and architecture."
+                        href="https://cp.certmetrics.com/amazon/en/public/verify/credential/e5aee63ffccd4ad4beba44ae09420c65"
+                        linkLabel="Verify"
+                      />
+                    </li>
+                  </SlideInLeft>
+                  <SlideInRight delay={0.15}>
+                    <li>
+                      <AchievementItem
+                        title="AWS Certified Data Engineer – Associate"
+                        date="AWS"
+                        description="Professional certification focused on building, securing, and maintaining data pipelines and analytics solutions on AWS."
+                        href="https://cp.certmetrics.com/amazon/en/public/verify/credential/af8fc87e1a4541a69673d98a35848f24"
+                        linkLabel="Verify"
+                      />
+                    </li>
+                  </SlideInRight>
+                </ul>
+              </section>
+            </SlideUp>
 
                                                 {/* Book a Meet */}
             <SlideUp delay={0.3}>
